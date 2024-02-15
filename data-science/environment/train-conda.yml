@@ -19,7 +19,8 @@ dependencies:
       - pathlib
       - argparse
       - nest-asyncio
-      #- os
+      - os
+      - env_canada
       
 # channels:
 #   - defaults
