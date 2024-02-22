@@ -17,6 +17,7 @@ jobs:
         conda_file: data-science/environment/train-conda.yml
       secrets:
           creds: ${{secrets.AZURE_CREDENTIALS}}
+            echo creds
           
   # register-dataset:
   #   needs: get-config
